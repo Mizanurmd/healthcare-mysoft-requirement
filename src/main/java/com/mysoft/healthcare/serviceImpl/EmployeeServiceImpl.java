@@ -39,7 +39,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         emp.setPhone(employee.getPhone());
         emp.setEmail(employee.getEmail());
         emp.setAddress(employee.getAddress());
-        emp.setPhone(employee.getPhone());
+        emp.setPhoto(employee.getPhoto());
 
 
         return employeeRepository.save(emp);
